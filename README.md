@@ -32,3 +32,6 @@ Ctrl + W + (->) or (<-)
 | :!w           | Save file             |
 | :!ls          | List files            |
 | !:python %    | execute present file  |
+
+#### Set tab width 4
+:set expandtab shiftwidth=4 softtabstop=4
