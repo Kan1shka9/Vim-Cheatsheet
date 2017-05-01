@@ -16,7 +16,7 @@ Shift + O
 :q
 
 #### Delete a line
-In Noraml Mode -> dd
+In Normal Mode -> dd
 
 #### Open 2 files in split mode
 ```sh
