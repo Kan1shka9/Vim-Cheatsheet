@@ -209,19 +209,82 @@ Similar shortcuts found in ``less	``, ``twitter``, tiling window managers such a
 
 ---
 
+###### Visual Select
 
+- Press `v` to go into visual select mode. Move the cursor around to select text.
+- Once you've selected a block, you can press:
 
+	- `y` &rarr; "yank" the text into the paste buffer
+	- `x` or `d` &rarr; delete the selected text
+	- `>>` &rarr; indent the text right by shiftwidth
+	- `<<` &rarr; indent the text left by shiftwidth
+- `v` - select by characters
+- `V` - select by lines
+- `ctrl+v` - select in a block
 
+---
 
-#### Open 2 files in split mode
+###### Paste
+
+Once you've populated the paste buffer by yanking or deleting, press `p` to paste.
+
+---
+
+###### More insert modes
+
+There are more ways to insert mode than just `i`:
+
+- `o` &rarr; go into insert mode, inserting a new line below the current line
+- `O` &rarr; go into insert mode, inserting a new line above the current line
+- `a` &rarr; go into insert mode at one character to the right
+- `A` &rarr; go into insert mode at the end of the current line
+
+---
+
+###### Fancy odds and ends
+
+- `J` &rarr; move the next line to the end of the current line
+- `(backtick)+.` &rarr; jump to the last edit
+
+---
+
+###### Insert a file
+
+You can insert a file at the cursor position with:
+
+```
+:r otherfile.txt
+```
+
+---
+
+###### Insert with a command in place
+
+You can insert the output of a command at the cursor position with `:r!`
+
+```
+:r!pwd
+:r!date
+```
+
+---
+
+###### Configure bash to work as vi
+
+```sh
+$ set -o vi
+```
+
+now press `esc` and `hjkl` your way around!
+
+---
+
+###### Open 2 files in split mode
 
 ```sh
 $ vim -O <file_1> <file_2>
 ```
-
-#### Move Cursor when split vertically
-
-Ctrl + W + (->) or (<-)
+---
 
 ###### Run command
 
@@ -231,6 +294,10 @@ Ctrl + W + (->) or (<-)
 | :!ls          | List files            |
 | !:python %    | execute present file  |
 
-#### Set tab width 4
+###### Set tab width 4
 
+---
+
+```
 :set expandtab shiftwidth=4 softtabstop=4
+```
