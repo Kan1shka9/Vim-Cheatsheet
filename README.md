@@ -1,5 +1,31 @@
 # 📠 Vim-Cheatsheet
 
+- [vim](#vim)
+- [vim cheat sheet](#vim-cheat-sheet)
+- [ANSI codes](#ansi-codes)
+- [Installing VIM](#installing-vim)
+- [Now we're in vim!](#now-were-in-vim)
+- [Saving and Quitting](#saving-and-quitting)
+- [Modes](#modes)
+- [Quit](#quit)
+- [Moving around](#moving-around)
+- [Delete](#delete)
+- [Undo and Redo](#undo-and-redo)
+- [Searching](#searching)
+- [Jumping](#jumping)
+- [Jumping and deleting](#jumping-and-deleting)
+- [Search and Replace](#search-and-replace)
+- [Visual Select](#visual-select)
+- [Paste](#paste)
+- [More insert modes](#more-insert-modes)
+- [Fancy odds and ends](#fancy-odds-and-ends)
+- [Insert a file](#insert-a-file)
+- [Insert with a command in place](#insert-with-a-command-in-place)
+- [Configure bash to work as vi](#configure-bash-to-work-as-vi)
+- [Open 2 files in split mode](#open-2-files-in-split-mode)
+- [Run command](#run-command)
+- [Set tab width 4](#set-tab-width-4)
+
 ###### vim
 
 - Built in 1993
