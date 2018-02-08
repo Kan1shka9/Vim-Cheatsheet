@@ -26,6 +26,8 @@
 - [Run command](#run-command)
 - [Set tab width 4](#set-tab-width-4)
 
+---
+
 ###### vim
 
 - Built in 1993
