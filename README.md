@@ -312,6 +312,9 @@ now press `esc` and `hjkl` your way around!
 ```sh
 $ vim -O <file_1> <file_2>
 ```
+
+``Ctrl+W`` &rarr; Press w twice to switch panes
+
 ---
 
 ###### Run command
